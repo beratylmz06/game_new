@@ -187,7 +187,7 @@ int main() {
             else {
                 DrawRectangle(0, 0, 800, 600, BLACK);
                 DrawText("CONGRATULATIONS! GAME OVER!", 200, 250, 30, GREEN);
-                DrawText("[ENTER] Start Over", 280, 300, 20, GRAY);
+                DrawText("[ENTER] Start Over-", 280, 300, 20, GRAY);
             }
 
         EndDrawing();
