@@ -1,5 +1,38 @@
+# IDE and Editor
 .vscode/
+.idea/
+.vs/
+*.user
+*.suo
+*.swp
+*.swo
+*~
+
+# Build artifacts
 *.o
+*.obj
 *.exe
-game
+*.out
+*.app
+*.dll
+*.so
+*.dylib
+
+# Build directories
+# Note: we keep build/ for the final executable as per requirements
+
+# OS files
 .DS_Store
+Thumbs.db
+desktop.ini
+
+# Raylib specific
+*.dSYM/
+
+# Debug
+*.log
+*.pdb
+
+# Temporary files
+*.tmp
+*.temp
